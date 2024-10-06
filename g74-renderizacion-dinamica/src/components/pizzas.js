@@ -1,7 +1,7 @@
 const pizzas = [
   {
     id: 1,
-    name: "holy-criolla",
+    name: "Margherita",
     ingredients: ["Tomato", "Mozzarella", "Basil"],
     stock: 10,
     quantity: 0,
@@ -10,7 +10,7 @@ const pizzas = [
   },
   {
     id: 2,
-    name: "holy-double-pepperoni",
+    name: "Pepperoni",
     ingredients: ["Tomato", "Mozzarella", "Pepperoni"],
     stock: 8,
     quantity: 0,
@@ -19,8 +19,8 @@ const pizzas = [
   },
   {
     id: 3,
-    name: "pizza-serrano-rucula",
-    ingredients: ["Tomato", "Rucula", "Mushrooms"],
+    name: "Funghi",
+    ingredients: ["Tomato", "Mozzarella", "Mushrooms"],
     stock: 6,
     quantity: 0,
     price: 4750,
@@ -55,7 +55,7 @@ const pizzas = [
   },
   {
     id: 7,
-    name: "pizza-chicken-bbq",
+    name: "BBQ Chicken",
     ingredients: ["BBQ Sauce", "Mozzarella", "Chicken", "Red Onions"],
     stock: 6,
     quantity: 0,
