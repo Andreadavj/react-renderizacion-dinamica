@@ -20,7 +20,7 @@ const Register = () => {
       return;
     }
 
-    // Esto me lo encontré en una documentación de StackOverflow sirve para validar que la contraseña tenga al menos una letra, un número y un carácter especial
+    
     const passwordRegex =
       /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/;
 

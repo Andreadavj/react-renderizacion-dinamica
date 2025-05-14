@@ -143,16 +143,16 @@
 
 @keyframes changeBackground {
   0% {
-    background-image: url('img/banner.jpg');
+    background-image: url('./assets/img/3.jpg');
   }
   33% {
-    background-image: url('img/banner1.jpg');
+    background-image: url('./assets/img/3.jpg');
   }
   66% {
-    background-image: url('img/banner2.jpg');
+    background-image: url('./assets/img/3.jpg');
   }
   100% {
-    background-image: url('img/banner.jpg');
+    background-image: url('./assets/img/3.jpg');
   }
 }
 

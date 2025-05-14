@@ -10,10 +10,10 @@ import pizzas from "./components/pizzas";
 import "./App.css";
 
 const App = () => {
-  const [cart, setCart] = useState(pizzas); // Cart inicializado con pizzas
+  const [cart, setCart] = useState(pizzas); 
   const [total, setTotal] = useState(0);
 
-  // Calcular el total
+  
   const calculateTotal = () => {
     const newTotal = cart.reduce(
       (acc, pizza) => acc + pizza.price * pizza.quantity,
@@ -22,7 +22,7 @@ const App = () => {
     setTotal(newTotal);
   };
 
-  // Cada vez que cambie el carrito, actualizamos el total
+  
   useEffect(() => {
     calculateTotal();
   }, [cart]);
@@ -36,6 +36,7 @@ const App = () => {
       {/* <Login /> */}
       <Cart cart={cart} setCart={setCart} />
       <Footer />
+      
     </div>
   );
 };
